@@ -51,7 +51,7 @@ def add_s(strings)
     if index == 1
       element
     else
-      element[-1] = element + "s"
+      element + "s"
     end
   end
 end
