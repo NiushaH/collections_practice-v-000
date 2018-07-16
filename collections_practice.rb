@@ -50,7 +50,7 @@ def add_s(strings)
 
     if index == 1
       element
-    elsif
+    else
       element[-1] = element + "s"
     end
   end
