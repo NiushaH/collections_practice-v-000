@@ -1,3 +1,5 @@
+require "pry"
+
 def sort_array_asc(num)
   num.sort
 end
@@ -43,8 +45,12 @@ end
 
 
 def add_s(strings)
-  plural = ["feet"]
+  # plural = ["feet"]
   strings.each_with_index.collect do |element, index|
-    element[-1] = element + "s"
+binding.pry
+  
+    if element[1]
+     return
+      element[-1] = element + "s"
   end
 end
