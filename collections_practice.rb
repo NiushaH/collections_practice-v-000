@@ -52,5 +52,6 @@ binding.pry
     if element[1]
      return
       element[-1] = element + "s"
+    end
   end
 end
