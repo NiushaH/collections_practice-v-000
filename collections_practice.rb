@@ -49,8 +49,9 @@ def add_s(strings)
   strings.each_with_index.collect do |element, index|
 binding.pry
   
-    if element[1]
-     return
+    if index == 1
+      element
+    elsif
       element[-1] = element + "s"
     end
   end
