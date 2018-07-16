@@ -43,6 +43,7 @@ end
 
 
 def add_s(strings)
+  plural = ["feet"]
   strings.each_with_index.collect do |element, index|
     element[-1] = element + "s"
   end
